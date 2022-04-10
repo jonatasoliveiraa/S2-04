@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+
+body, section, main, aside, footer, header, img, nav, ul, li, a, h1, h2, h3, div, p, figure{
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'IBM Plex Sans', sans-serif ;
+}
+html{
+    background-color: #f5f5f5;
+}
+.menu {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+}
+.container{
+    margin: 0 auto;
+}
+.menuColu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    font-size: 24px;
+    padding: 20px;
+    margin-left: 80px;
+}
+.navF{
+    margin-right: 567px;
+}
+.navItem{
+    display: inline;
+    padding: 20px;
+    cursor: pointer;
+}
+.promo{
+    display: flex;
+    width: 145px;
+    height: 40px;
+    font-size: 16px;
+    background-color: #4C6EF5;
+    border-radius: 6px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.promo a{
+    color: #fff;
+}
+section{
+    width: 1576px;
+    margin: 0 auto;
+}
+.cardBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.product{
+    width: 330px;
+    height: 460px;
+    background-color: #fff;
+    margin: 30px 10px 10px 10px;
+    border-radius: 8px; 
+}
+.cell{
+    margin-top: 42px;
+}
+.airfryer{
+    margin-top: 11px;
+}
+.monitor{
+    margin-top: 3px;
+}
+figure{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+section .cardBox .product img{
+    margin-top: 40px;
+}
+.textProduct{
+    width: 324px;
+    margin-top: 40px;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.price{
+    width: 374px;
+    margin-left: 12px;
+    margin-bottom: 26px;
+    font-size: 15px;
+    font-weight: 600;
+}
+button{
+    display: flex;
+    width: 300px;
+    margin-left: 16px;
+    height: 48px;
+    font-size: 16px;
+    background-color: #4C6EF5;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
